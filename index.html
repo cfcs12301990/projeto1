@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans: wght@300&display=swap" rel="stylesheet">
+        <link rel="icon" href="data:,">
+        <script src="scripts.js"></script>
+        <title>Projeto Cleyton</title>
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/30/30715.png">
+        <style type="text/css">
+            .caixa-noticia{
+                height: 650px;
+            }
+            .caixa-maior{
+                height: -650px;
+            }     
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="caixa-noticia">
+            <div class="card">
+                <div class="data"><b>Evolução</b></div><br>
+                <p>Teste de início, sempre buscando evoluir cada vez mais. Sei que podemos fazer o possível para conquistar
+                    nossos sonhos, e o impossível também, já que somos seres de conhecimento ilimitado e que não tem limites
+                    quando o assunto é criar e resolver problemas. A programação fez eu enxergar o mundo de uma maneira diferente, por mais dificeis que seja. Sonhos existem para ir atrás,
+                    a evolução e o progresso faz o sucesso e também faz com que cheguemos ao nossos sonhos com êxito. Hoje vejo os problemas com outros olhos, com olhos de buscar soluções.
+                </p>
+                <div class="autor">
+                    <div class="img-caixa-noticia">
+                        <div class="img"></div>
+                    </div>
+                    <div class="info">
+                        <span>Autor:</span>
+                        Cleyton Cardoso    
+                    </div> 
+                </div>
+            </div>  
+        </div>       
+
+        <div class="caixa-maior">
+    
+            <input class="input-cidade" placeholder="Digite o nome da cidade">
+            <button onclick="cliqueiNoBotao()">
+                <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg">
+            </button>
+
+            <div class="caixa-media">
+                <h2 class="cidade">Tempo em </h2>
+                    <p class="temp"> Temperatura </p>
+                    <p class="tempMax"> Temp. Máx. </p>
+                    <p class="tempMin">Temp. Min. </p>
+                    <p class="sensacao-termica">Sensação Térmica: </p>
+                </p>
+                <div class="caixa-menor">
+                    <img class= "icone" src="https://openweathermap.org/img/wn/04n.png">
+                    <p class="descricao">Clima</p>    
+                </div>
+                <p class="umidade"> umidade</p>
+            </div>
+        </div>
+        
+    </body>
+</html>
